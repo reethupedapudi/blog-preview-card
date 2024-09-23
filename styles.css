@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap'); 
+
+@media (max-width:1440px){
+    body{
+        background-color: hsl(0, 0, 0);
+    }
+
+}
+body{  
+  background-color: hsl(47, 88%, 63%);
+  position: relative;
+  font-family: 'Figtree', sans-serif;
+}
+
+.main{
+  border:1px solid hsl(0, 0%, 7%);
+  border-radius: 20px;
+  box-shadow: 7px 7px 0px rgba(0,0,0,1);
+  background-color: hsl(0, 0%, 100%);
+  height: 515px;
+  width: 360px;
+  position: absolute;
+  top: 100px;
+  left: 480px;
+}
+
+.illustration{
+    padding: 20px 20px;
+    width: 320px;
+}
+
+.actual-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.content{
+    padding: 0px 20px;
+}
+
+.button{
+    background-color:hsl(47, 88%, 63%);
+    border: 0px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+p:last-child{
+  color: hsl(0, 0%, 50%);
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+h2{
+  transition: all 0.2s ease;
+}
+
+h2:hover{
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  height: 30px;
+  width:30px;
+  margin-right: 12px;
+}
+
+.profile-image{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name{
+  font-weight: 900;
+  font-size: 14px;
+}
